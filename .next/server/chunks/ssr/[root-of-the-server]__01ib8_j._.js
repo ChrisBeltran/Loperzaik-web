@@ -1,0 +1,61 @@
+module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},50640,(a,b,c)=>{"use strict";Object.defineProperty(c,"__esModule",{value:!0}),Object.defineProperty(c,"InvariantError",{enumerable:!0,get:function(){return d}});class d extends Error{constructor(a,b){super(`Invariant: ${a.endsWith(".")?a:a+"."} This is a bug in Next.js.`,b),this.name="InvariantError"}}},32627,28276,a=>{"use strict";var b=a.i(7997),c=a.i(95936);a.s(["default",0,function({post:a}){let d=new Date(a.fecha).toLocaleDateString("es-CO",{day:"numeric",month:"long",year:"numeric"});return(0,b.jsxs)("article",{className:"group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-md transition-all",children:[(0,b.jsx)(c.default,{href:`/blog/${a.slug}`,children:(0,b.jsxs)("div",{className:"relative overflow-hidden aspect-video bg-gray-100",children:[(0,b.jsx)("img",{src:a.imagen,alt:a.titulo,className:"w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"}),(0,b.jsx)("span",{className:"absolute top-3 left-3 bg-white text-gray-700 text-xs font-medium px-2 py-1 rounded-full",children:a.categoria})]})}),(0,b.jsxs)("div",{className:"p-4",children:[(0,b.jsxs)("p",{className:"text-xs text-gray-400 mb-2",children:[d," · ",a.tiempoLectura," min de lectura"]}),(0,b.jsx)(c.default,{href:`/blog/${a.slug}`,children:(0,b.jsx)("h3",{className:"font-semibold text-gray-900 text-base leading-snug mb-2 group-hover:text-gray-600 transition-colors line-clamp-2",children:a.titulo})}),(0,b.jsx)("p",{className:"text-sm text-gray-500 line-clamp-2 mb-3",children:a.resumen}),(0,b.jsx)("div",{className:"flex flex-wrap gap-1",children:a.etiquetas.slice(0,3).map(a=>(0,b.jsx)("span",{className:"text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full",children:a},a))})]})]})}],32627);let d=[{slug:"audifonos-con-cable-vs-inalambricos",titulo:"Audífonos con cable vs inalámbricos: ¿cuál te conviene?",resumen:"Te explicamos las diferencias reales entre audífonos con cable y Bluetooth para que elijas el que mejor se adapta a tu vida.",imagen:"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",categoria:"Audio",fecha:"2026-01-15",autor:"Loperzaik",tiempoLectura:4,etiquetas:["Audífonos","Bluetooth","Guía de compra"],contenido:`
+      <p>Una de las preguntas m\xe1s frecuentes al comprar aud\xedfonos es: \xbfcon cable o inal\xe1mbricos? Cada opci\xf3n tiene sus ventajas y aqu\xed te explicamos cu\xe1l es mejor seg\xfan tu caso.</p>
+
+      <h2>Aud\xedfonos con cable</h2>
+      <p>Los aud\xedfonos con cable tienen una ventaja clara: <strong>nunca se quedan sin bater\xeda</strong>. Son perfectos para usar con el computador, estudiar o trabajar en casa. Adem\xe1s, su precio suele ser mucho m\xe1s accesible.</p>
+      <ul>
+        <li>Sin preocupaci\xf3n por la bater\xeda</li>
+        <li>Precio m\xe1s econ\xf3mico</li>
+        <li>Calidad de audio consistente</li>
+        <li>Compatibles con cualquier dispositivo con entrada 3.5mm</li>
+      </ul>
+
+      <h2>Aud\xedfonos Bluetooth inal\xe1mbricos</h2>
+      <p>Los aud\xedfonos Bluetooth te dan <strong>libertad de movimiento</strong>. Son ideales si los usas en el gym, en el transporte o caminando. Con tecnolog\xeda Bluetooth 5.0 la conexi\xf3n es estable y la bater\xeda puede durar hasta 20 horas.</p>
+      <ul>
+        <li>Sin cables que estorben</li>
+        <li>Perfectos para hacer deporte</li>
+        <li>Micr\xf3fono integrado para llamadas</li>
+        <li>Se conectan a varios dispositivos</li>
+      </ul>
+
+      <h2>\xbfCu\xe1l te conviene?</h2>
+      <p>Si los usas principalmente en casa o en el trabajo con tu PC, los <strong>aud\xedfonos con cable</strong> son la opci\xf3n m\xe1s pr\xe1ctica y econ\xf3mica. Si eres de los que se mueven mucho o hacen deporte, los <strong>aud\xedfonos Bluetooth</strong> son la mejor inversi\xf3n.</p>
+      <p>En Loperzaik tenemos ambas opciones disponibles con env\xedo a domicilio. \xa1Escr\xedbenos y te asesoramos!</p>
+    `},{slug:"como-elegir-cargador-que-no-dane-tu-celular",titulo:"¿Cómo elegir un cargador que no dañe tu celular?",resumen:"Usar un cargador de mala calidad puede dañar tu batería. Te enseñamos qué mirar antes de comprar uno.",imagen:"https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=800",categoria:"Cargadores",fecha:"2026-01-28",autor:"Loperzaik",tiempoLectura:3,etiquetas:["Cargadores","Batería","Celular"],contenido:`
+      <p>Un cargador de mala calidad no solo carga m\xe1s lento — puede da\xf1ar la bater\xeda de tu celular con el tiempo o incluso ser peligroso. Aqu\xed te decimos qu\xe9 mirar al comprar uno.</p>
+
+      <h2>Lo m\xe1s importante: el amperaje</h2>
+      <p>El amperaje (A) determina la velocidad de carga. Un cargador de <strong>1A</strong> carga lento, mientras que uno de <strong>2A</strong> carga el doble de r\xe1pido. Para la mayor\xeda de celulares Android actuales, un cargador de 2A es ideal.</p>
+
+      <h2>Voltaje universal</h2>
+      <p>Busca cargadores con entrada <strong>100-240V</strong>. Esto significa que funcionan en cualquier toma el\xe9ctrica, incluso si viajas.</p>
+
+      <h2>El cable tambi\xe9n importa</h2>
+      <p>Un buen cargador con un cable da\xf1ado no sirve de mucho. Los cables <strong>Micro USB</strong> son los m\xe1s comunes en celulares Android. Aseg\xfarate de que el cable sea para carga y datos, no solo para carga.</p>
+
+      <h2>\xbfQu\xe9 evitar?</h2>
+      <ul>
+        <li>Cargadores sin marca con precio muy bajo</li>
+        <li>Cables muy delgados o sin refuerzo en las puntas</li>
+        <li>Cargadores que se calientan mucho</li>
+      </ul>
+
+      <p>En Loperzaik vendemos cargadores TC de 2A y cables Micro USB probados. <strong>Env\xedo a domicilio</strong> y te asesoramos por WhatsApp.</p>
+    `},{slug:"mejores-accesorios-pc-menos-50000-pesos",titulo:"Los mejores accesorios para PC por menos de $50.000 en Colombia",resumen:"Arma tu puesto de trabajo sin gastar una fortuna. Te mostramos los mejores accesorios para PC disponibles en Loperzaik.",imagen:"https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800",categoria:"Accesorios PC",fecha:"2026-02-05",autor:"Loperzaik",tiempoLectura:4,etiquetas:["Accesorios PC","Teclado","Mouse","USB"],contenido:`
+      <p>Tener un buen puesto de trabajo no tiene que costar millones. Con menos de $50.000 pesos puedes conseguir accesorios de calidad que mejoran tu productividad todos los d\xedas.</p>
+
+      <h2>Teclado USB — $35.000</h2>
+      <p>Un teclado en espa\xf1ol con conexi\xf3n USB es todo lo que necesitas para trabajar c\xf3modamente. Las teclas de membrana son silenciosas y c\xf3modas para sesiones largas. Compatible con Windows, Mac y Linux sin instalar nada.</p>
+
+      <h2>Mouse \xf3ptico — $22.000</h2>
+      <p>El mouse \xf3ptico con cable USB es el m\xe1s confiable. No necesita bater\xedas, no falla la conexi\xf3n y su sensor de 1000 DPI es m\xe1s que suficiente para trabajo y navegaci\xf3n. Su dise\xf1o ergon\xf3mico evita el cansancio en la mano.</p>
+
+      <h2>Memoria USB 32GB — $28.000</h2>
+      <p>Imprescindible para llevar tus documentos, m\xfasica y fotos siempre contigo. Compatible con PC, televisor y carro. 32GB es suficiente para miles de documentos y cientos de fotos.</p>
+
+      <h2>La combinaci\xf3n perfecta</h2>
+      <p>Teclado + Mouse + USB 32GB = $85.000 por un puesto de trabajo completo. En Loperzaik tienes todo disponible con env\xedo a domicilio. \xa1Escr\xedbenos por WhatsApp y hacemos el pedido!</p>
+    `}];a.s(["getPostBySlug",0,a=>d.find(b=>b.slug===a),"getPostsRecientes",0,(a=3)=>[...d].sort((a,b)=>new Date(b.fecha).getTime()-new Date(a.fecha).getTime()).slice(0,a),"posts",0,d],28276)},10585,a=>{a.v("/_next/static/media/favicon.0x3dzn~oxb6tn.ico"+(globalThis.NEXT_CLIENT_ASSET_SUFFIX||""))},68611,a=>{"use strict";let b={src:a.i(10585).default,width:256,height:256};a.s(["default",0,b])},67932,a=>{"use strict";var b=a.i(7997);a.i(70396);var c=a.i(73727),d=a.i(95936),e=a.i(32627),f=a.i(28276);async function g(){return f.posts.map(a=>({slug:a.slug}))}async function h({params:a}){let{slug:b}=await a,c=(0,f.getPostBySlug)(b);return c?{title:`${c.titulo} - Loperzaik Blog`,description:c.resumen,openGraph:{title:c.titulo,description:c.resumen,images:[{url:c.imagen}],type:"article"}}:{}}async function i({params:a}){let{slug:g}=await a,h=(0,f.getPostBySlug)(g);h||(0,c.notFound)();let j=(0,f.getPostsRecientes)(3).filter(a=>a.slug!==g),k=new Date(h.fecha).toLocaleDateString("es-CO",{day:"numeric",month:"long",year:"numeric"}),l={"@context":"https://schema.org","@type":"BlogPosting",headline:h.titulo,description:h.resumen,image:h.imagen,datePublished:h.fecha,author:{"@type":"Organization",name:h.autor},publisher:{"@type":"Organization",name:"Loperzaik"}};return(0,b.jsxs)(b.Fragment,{children:[(0,b.jsx)("script",{type:"application/ld+json",dangerouslySetInnerHTML:{__html:JSON.stringify(l)}}),(0,b.jsxs)("div",{className:"max-w-4xl mx-auto px-4 py-8",children:[(0,b.jsxs)("nav",{className:"flex items-center gap-2 text-sm text-gray-400 mb-6",children:[(0,b.jsx)(d.default,{href:"/",className:"hover:text-gray-700",children:"Inicio"}),(0,b.jsx)("span",{children:"/"}),(0,b.jsx)(d.default,{href:"/blog",className:"hover:text-gray-700",children:"Blog"}),(0,b.jsx)("span",{children:"/"}),(0,b.jsx)("span",{className:"text-gray-700 truncate",children:h.titulo})]}),(0,b.jsxs)("div",{className:"bg-white rounded-2xl overflow-hidden border border-gray-200 mb-8",children:[(0,b.jsx)("img",{src:h.imagen,alt:h.titulo,className:"w-full aspect-video object-cover"}),(0,b.jsxs)("div",{className:"p-6 md:p-8",children:[(0,b.jsxs)("div",{className:"flex flex-wrap items-center gap-3 mb-4",children:[(0,b.jsx)("span",{className:"bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full",children:h.categoria}),(0,b.jsx)("span",{className:"text-gray-400 text-sm",children:k}),(0,b.jsxs)("span",{className:"text-gray-400 text-sm",children:[h.tiempoLectura," min de lectura"]})]}),(0,b.jsx)("h1",{className:"text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-snug",children:h.titulo}),(0,b.jsx)("p",{className:"text-gray-500 text-lg mb-6 leading-relaxed border-l-4 border-gray-200 pl-4",children:h.resumen}),(0,b.jsx)("div",{className:"prose prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-600 prose-p:leading-relaxed prose-li:text-gray-600 prose-strong:text-gray-900",dangerouslySetInnerHTML:{__html:h.contenido}}),(0,b.jsx)("div",{className:"flex flex-wrap gap-2 mt-6 pt-6 border-t border-gray-100",children:h.etiquetas.map(a=>(0,b.jsx)("span",{className:"text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-full",children:a},a))})]})]}),j.length>0&&(0,b.jsxs)("div",{children:[(0,b.jsx)("h2",{className:"text-xl font-bold text-gray-900 mb-4",children:"Artículos relacionados"}),(0,b.jsx)("div",{className:"grid md:grid-cols-2 gap-4",children:j.slice(0,2).map(a=>(0,b.jsx)(e.default,{post:a},a.slug))})]})]})]})}a.s(["default",0,i,"generateMetadata",0,h,"generateStaticParams",0,g])},7014,a=>{a.n(a.i(67932))}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__01ib8_j._.js.map
