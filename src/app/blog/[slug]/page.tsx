@@ -65,10 +65,10 @@ export default async function BlogPostPage({ params }: Props) {
               <span className="text-gray-400 text-sm">{fecha}</span>
               <span className="text-gray-400 text-sm">{post.tiempoLectura} min de lectura</span>
             </div>
-            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-snug">{post.titulo}</h1>
+            <h1 className="text-2xl md:text-3xl font-bold text-[#4410b9] mb-4 leading-snug">{post.titulo}</h1>
             <p className="text-gray-500 text-lg mb-6 leading-relaxed border-l-4 border-gray-200 pl-4">{post.resumen}</p>
             <div
-              className="prose prose-gray max-w-none prose-headings:font-bold prose-headings:text-gray-900 prose-p:text-gray-600 prose-p:leading-relaxed prose-li:text-gray-600 prose-strong:text-gray-900"
+              className="prose prose-gray max-w-none prose-headings:font-bold prose-headings:text-[#4410b9] prose-p:text-gray-600 prose-p:leading-relaxed prose-li:text-gray-600 prose-strong:text-[#4410b9]"
               dangerouslySetInnerHTML={{ __html: post.contenido }}
             />
             <div className="flex flex-wrap gap-2 mt-6 pt-6 border-t border-gray-100">
@@ -81,7 +81,7 @@ export default async function BlogPostPage({ params }: Props) {
 
         {recientes.length > 0 && (
           <div>
-            <h2 className="text-xl font-bold text-gray-900 mb-4">Artículos relacionados</h2>
+            <h2 className="text-xl font-bold text-[#4410b9] mb-4">Artículos relacionados</h2>
             <div className="grid md:grid-cols-2 gap-4">
               {recientes.slice(0, 2).map((p) => <PostCard key={p.slug} post={p}/>)}
             </div>

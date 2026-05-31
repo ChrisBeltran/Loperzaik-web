@@ -33,7 +33,7 @@ export default async function CategoriaPage({ params }: Props) {
         <span>/</span>
         <span className="text-gray-700">{categoria.nombre}</span>
       </nav>
-      <div className="relative bg-gray-900 rounded-2xl overflow-hidden mb-8 p-8 md:p-12">
+      <div className="relative bg-[#4410b9] rounded-2xl overflow-hidden mb-8 p-8 md:p-12">
         <img src={categoria.imagen} alt={categoria.nombre} className="absolute inset-0 w-full h-full object-cover opacity-20"/>
         <div className="relative">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">{categoria.nombre}</h1>

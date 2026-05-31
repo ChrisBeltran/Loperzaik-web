@@ -21,8 +21,8 @@ export default function ProductCard({ producto }: { producto: Producto }) {
           />
           {producto.etiquetas[0] && (
             <span className={`absolute top-2 left-2 text-xs font-semibold px-2 py-0.5 rounded-full ${
-              isProximamente ? 'bg-gray-800 text-white' :
-              producto.etiquetas[0] === 'Nuevo' ? 'bg-gray-900 text-white' :
+              isProximamente ? 'bg-[#4410b9] text-white' :
+              producto.etiquetas[0] === 'Nuevo' ? 'bg-[#4410b9] text-white' :
               'bg-gray-700 text-white'
             }`}>
               {producto.etiquetas[0]}
@@ -33,7 +33,7 @@ export default function ProductCard({ producto }: { producto: Producto }) {
       <div className="p-3">
         <p className="text-xs text-gray-400 mb-0.5 capitalize">{producto.subcategoria}</p>
         <Link href={`/productos/${producto.slug}`}>
-          <h3 className="text-sm font-medium text-gray-900 line-clamp-2 hover:text-gray-600 transition-colors mb-1">{producto.nombre}</h3>
+          <h3 className="text-sm font-medium text-[#4410b9] line-clamp-2 hover:text-gray-600 transition-colors mb-1">{producto.nombre}</h3>
         </Link>
         {producto.rating > 0 && (
           <div className="flex items-center gap-1 mb-2">
@@ -48,14 +48,14 @@ export default function ProductCard({ producto }: { producto: Producto }) {
             ) : (
               <>
                 {producto.precioAnterior && <span className="text-xs text-gray-400 line-through mr-1">{fmt(producto.precioAnterior)}</span>}
-                <span className="text-base font-bold text-gray-900">{fmt(producto.precio)}</span>
+                <span className="text-base font-bold text-[#4410b9]">{fmt(producto.precio)}</span>
               </>
             )}
           </div>
           {!isProximamente && producto.stock > 0 && (
             <button
               onClick={() => { addItem(producto); }}
-              className="p-2 bg-gray-900 text-white rounded-xl hover:bg-gray-700 transition-colors"
+              className="p-2 bg-[#4410b9] text-white rounded-xl hover:bg-[#3509a0] transition-colors"
               aria-label="Agregar al carrito"
             >
               <FiShoppingCart size={14}/>

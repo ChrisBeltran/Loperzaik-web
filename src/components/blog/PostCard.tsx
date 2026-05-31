@@ -14,7 +14,7 @@ export default function PostCard({ post }: { post: Post }) {
       <div className="p-4">
         <p className="text-xs text-gray-400 mb-2">{fecha} · {post.tiempoLectura} min de lectura</p>
         <Link href={`/blog/${post.slug}`}>
-          <h3 className="font-semibold text-gray-900 text-base leading-snug mb-2 group-hover:text-gray-600 transition-colors line-clamp-2">{post.titulo}</h3>
+          <h3 className="font-semibold text-[#4410b9] text-base leading-snug mb-2 group-hover:text-gray-600 transition-colors line-clamp-2">{post.titulo}</h3>
         </Link>
         <p className="text-sm text-gray-500 line-clamp-2 mb-3">{post.resumen}</p>
         <div className="flex flex-wrap gap-1">

@@ -11,7 +11,7 @@ export default function BlogPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="text-center mb-10">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Blog de Tecnología</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-[#4410b9] mb-2">Blog de Tecnología</h1>
         <p className="text-gray-500 max-w-xl mx-auto">Guías y consejos para elegir los mejores productos. Aprende antes de comprar.</p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

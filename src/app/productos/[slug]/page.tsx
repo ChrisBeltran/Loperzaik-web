@@ -71,7 +71,7 @@ export default async function ProductoPage({ params }: Props) {
           {/* ── INFO PRODUCTO ── */}
           <div>
             {producto.marca && <p className="text-sm text-gray-400 mb-1 uppercase tracking-wide">{producto.marca}</p>}
-            <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3 leading-snug">{producto.nombre}</h1>
+            <h1 className="text-2xl md:text-3xl font-bold text-[#4410b9] mb-3 leading-snug">{producto.nombre}</h1>
 
             {producto.rating > 0 && (
               <div className="flex items-center gap-2 mb-3">
@@ -90,7 +90,7 @@ export default async function ProductoPage({ params }: Props) {
 
             {!isProximamente && (
               <div className="flex items-end gap-3 mb-4">
-                <span className="text-3xl font-bold text-gray-900">{fmt(producto.precio)}</span>
+                <span className="text-3xl font-bold text-[#4410b9]">{fmt(producto.precio)}</span>
                 {producto.precioAnterior && <span className="text-lg text-gray-400 line-through mb-1">{fmt(producto.precioAnterior)}</span>}
               </div>
             )}
@@ -115,12 +115,12 @@ export default async function ProductoPage({ params }: Props) {
             {/* Especificaciones */}
             {Object.keys(producto.especificaciones).length > 0 && (
               <div className="bg-gray-50 rounded-2xl p-4 border border-gray-100">
-                <h2 className="font-semibold text-gray-900 mb-3 text-sm uppercase tracking-wide">Especificaciones</h2>
+                <h2 className="font-semibold text-[#4410b9] mb-3 text-sm uppercase tracking-wide">Especificaciones</h2>
                 <div className="space-y-0">
                   {Object.entries(producto.especificaciones).map(([k, v]) => (
                     <div key={k} className="flex justify-between text-sm py-2 border-b border-gray-200 last:border-0">
                       <span className="text-gray-500">{k}</span>
-                      <span className="text-gray-900 font-medium">{v}</span>
+                      <span className="text-[#4410b9] font-medium">{v}</span>
                     </div>
                   ))}
                 </div>
@@ -132,7 +132,7 @@ export default async function ProductoPage({ params }: Props) {
         {/* Productos relacionados */}
         {relacionados.length > 0 && (
           <div>
-            <h2 className="text-xl font-bold text-gray-900 mb-4">Productos relacionados</h2>
+            <h2 className="text-xl font-bold text-[#4410b9] mb-4">Productos relacionados</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
               {relacionados.map((p) => <ProductCard key={p.id} producto={p}/>)}
             </div>

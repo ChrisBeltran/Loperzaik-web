@@ -74,7 +74,7 @@ export default function Galeria({ imagenes, nombre }: Props) {
               key={i}
               onClick={() => setActual(i)}
               className={`shrink-0 w-16 h-16 md:w-20 md:h-20 rounded-xl overflow-hidden border-2 transition-all ${
-                i === actual ? 'border-gray-900' : 'border-gray-200 hover:border-gray-400'
+                i === actual ? 'border-[#4410b9]' : 'border-gray-200 hover:border-gray-400'
               }`}
             >
               <img src={img} alt={`${nombre} ${i + 1}`} className="w-full h-full object-cover"/>

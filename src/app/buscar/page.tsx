@@ -15,7 +15,7 @@ export default async function BuscarPage({ searchParams }: Props) {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold text-gray-900 mb-1">
+      <h1 className="text-2xl font-bold text-[#4410b9] mb-1">
         {q ? `Resultados para "${q}"` : 'Buscar productos'}
       </h1>
       <p className="text-gray-500 text-sm mb-6">

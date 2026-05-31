@@ -4,13 +4,13 @@ import { categorias } from '@/data/productos';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white mb-14 md:mb-0">
+    <footer className="bg-[#4410b9] text-white mb-14 md:mb-0">
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-9 h-9 bg-white rounded-xl flex items-center justify-center">
-                <span className="font-bold text-gray-900 text-lg">L</span>
+                <span className="font-bold text-[#4410b9] text-lg">L</span>
               </div>
               <div>
                 <p className="font-bold text-white">Loperzaik</p>
@@ -21,8 +21,8 @@ export default function Footer() {
               Audífonos, parlantes, accesorios para PC, cargadores y cables. Envío a domicilio en Colombia.
             </p>
             <div className="flex gap-2">
-              <a href="#" className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white hover:text-gray-900 transition-all"><FiFacebook size={15}/></a>
-              <a href="#" className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white hover:text-gray-900 transition-all"><FiInstagram size={15}/></a>
+              <a href="#" className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white hover:text-[#4410b9] transition-all"><FiFacebook size={15}/></a>
+              <a href="#" className="w-8 h-8 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white hover:text-[#4410b9] transition-all"><FiInstagram size={15}/></a>
             </div>
           </div>
 

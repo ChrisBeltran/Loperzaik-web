@@ -66,7 +66,7 @@ export default function Home() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-2 leading-tight">{s.titulo}</h1>
             <p className="text-gray-300 mb-5 text-sm md:text-base">{s.sub}</p>
             <div className="flex gap-3">
-              <Link href={s.link} className="bg-white text-gray-900 font-semibold px-5 py-2.5 rounded-lg text-sm hover:bg-gray-100 transition-colors">
+              <Link href={s.link} className="bg-white text-[#4410b9] font-semibold px-5 py-2.5 rounded-lg text-sm hover:bg-gray-100 transition-colors">
                 {s.cta}
               </Link>
               <a href={`https://wa.me/${WA_NUMBER}?text=${WA_MSG}`} target="_blank" rel="noopener noreferrer"
@@ -101,10 +101,10 @@ export default function Home() {
             {categorias.map((cat) => (
               <Link key={cat.id} href={`/categoria/${cat.id}`}
                 className="flex flex-col items-center gap-2 group py-2 px-3">
-                <div className="w-14 h-14 bg-gray-100 rounded-2xl flex items-center justify-center text-gray-600 group-hover:bg-gray-900 group-hover:text-white transition-all">
+                <div className="w-14 h-14 bg-gray-100 rounded-2xl flex items-center justify-center text-gray-600 group-hover:bg-[#4410b9] group-hover:text-white transition-all">
                   {iconosCategorias[cat.id]}
                 </div>
-                <span className="text-xs text-gray-600 group-hover:text-gray-900 font-medium text-center leading-tight">{cat.nombre}</span>
+                <span className="text-xs text-gray-600 group-hover:text-[#4410b9] font-medium text-center leading-tight">{cat.nombre}</span>
               </Link>
             ))}
           </div>
@@ -115,10 +115,10 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 md:px-6 py-8">
         <div className="flex items-center justify-between mb-5">
           <div>
-            <h2 className="text-xl md:text-2xl font-bold text-gray-900">Productos destacados</h2>
+            <h2 className="text-xl md:text-2xl font-bold text-[#4410b9]">Productos destacados</h2>
             <p className="text-gray-500 text-sm">Lo más popular del momento</p>
           </div>
-          <Link href="/categoria/audio" className="text-sm text-gray-500 hover:text-gray-900 font-medium border border-gray-300 px-3 py-1.5 rounded-lg hover:border-gray-500 transition-colors">
+          <Link href="/categoria/audio" className="text-sm text-gray-500 hover:text-[#4410b9] font-medium border border-gray-300 px-3 py-1.5 rounded-lg hover:border-gray-500 transition-colors">
             Ver todos →
           </Link>
         </div>
@@ -128,7 +128,7 @@ export default function Home() {
       </section>
 
       {/* ── BANNER WHATSAPP ── */}
-      <section className="bg-gray-900 py-10">
+      <section className="bg-[#4410b9] py-10">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
             <h2 className="text-xl md:text-2xl font-bold text-white mb-1">¿Tienes alguna duda?</h2>
@@ -145,10 +145,10 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 md:px-6 py-10">
         <div className="flex items-center justify-between mb-5">
           <div>
-            <h2 className="text-xl md:text-2xl font-bold text-gray-900">Blog de tecnología</h2>
+            <h2 className="text-xl md:text-2xl font-bold text-[#4410b9]">Blog de tecnología</h2>
             <p className="text-gray-500 text-sm">Guías para elegir mejor</p>
           </div>
-          <Link href="/blog" className="text-sm text-gray-500 hover:text-gray-900 font-medium border border-gray-300 px-3 py-1.5 rounded-lg hover:border-gray-500 transition-colors">
+          <Link href="/blog" className="text-sm text-gray-500 hover:text-[#4410b9] font-medium border border-gray-300 px-3 py-1.5 rounded-lg hover:border-gray-500 transition-colors">
             Ver todos →
           </Link>
         </div>
