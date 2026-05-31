@@ -26,7 +26,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
 
-        {/* BOTÓN FLOTANTE WHATSAPP */}
         
           href={`https://wa.me/${WA_NUMBER}?text=${WA_MSG}`}
           target="_blank"
