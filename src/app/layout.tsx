@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
 
-        
+        <a
           href={`https://wa.me/${WA_NUMBER}?text=${WA_MSG}`}
           target="_blank"
           rel="noopener noreferrer"
