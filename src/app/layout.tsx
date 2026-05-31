@@ -3,9 +3,6 @@ import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
-const WA_NUMBER = '573000000000'; // 👈 Cambia por tu número real
-const WA_MSG = encodeURIComponent('¡Hola! Quiero información sobre sus productos.');
-
 export const metadata: Metadata = {
   title: { default: 'Loperzaik | Tecnología de Vanguardia', template: '%s | Loperzaik' },
   description: 'Tienda de electrónica y accesorios en Colombia. Audífonos Bluetooth, parlantes, teclados, mouse, cargadores y cables. Envío a domicilio.',
@@ -18,6 +15,9 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const WA_NUMBER = '573000000000';
+  const WA_MSG = encodeURIComponent('¡Hola! Quiero información sobre sus productos.');
+
   return (
     <html lang="es">
       <body className="bg-gray-50">
@@ -31,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href={`https://wa.me/${WA_NUMBER}?text=${WA_MSG}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg transition-transform hover:scale-110"
+          className="fixed bottom-20 right-4 md:bottom-6 md:right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg transition-transform hover:scale-110"
           aria-label="Contactar por WhatsApp"
         >
           <svg viewBox="0 0 24 24" fill="currentColor" className="w-7 h-7">
