@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const WA_NUMBER = '573000000000';
+  const WA_NUMBER = '573045896399';
   const WA_MSG = encodeURIComponent('¡Hola! Quiero información sobre sus productos.');
 
   return (
