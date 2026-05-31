@@ -22,7 +22,7 @@ export default function Header() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
 
         {/* Barra top — solo desktop */}
-        <div className="hidden md:block bg-gray-900 text-white text-xs py-2">
+        <div className="hidden md:block bg-[#4410b9] text-white text-xs py-2">
           <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
             <span>📞 Línea: 01 8000 123 456 · Envío a domicilio en Colombia</span>
             <div className="flex gap-5 text-gray-400">
@@ -37,7 +37,7 @@ export default function Header() {
 
           {/* Logo — igual posición que Masglo: izquierda */}
           <Link href="/" className="flex items-center gap-2.5 shrink-0 mr-2">
-            <div className="w-10 h-10 bg-gray-900 rounded-xl flex items-center justify-center">
+            <div className="w-10 h-10 bg-[#4410b9] rounded-xl flex items-center justify-center">
               <span className="text-white font-bold text-xl">L</span>
             </div>
             <div className="hidden sm:block">
@@ -56,7 +56,7 @@ export default function Header() {
                 placeholder="Estoy buscando..."
                 className="flex-1 px-4 py-2.5 text-sm text-gray-900 placeholder:text-gray-400 outline-none bg-white"
               />
-              <button type="submit" className="px-4 py-2.5 bg-gray-900 text-white text-sm font-medium hover:bg-gray-700 transition-colors flex items-center gap-1.5 shrink-0">
+              <button type="submit" className="px-4 py-2.5 bg-[#4410b9] text-white text-sm font-medium hover:bg-gray-700 transition-colors flex items-center gap-1.5 shrink-0">
                 <FiSearch size={14}/> <span className="hidden sm:inline">Buscar</span>
               </button>
             </div>
@@ -67,7 +67,7 @@ export default function Header() {
             <Link href="/carrito" className="relative flex flex-col items-center p-2 text-gray-600 hover:text-gray-900 transition-colors">
               <FiShoppingCart size={22}/>
               {totalItems > 0 && (
-                <span className="absolute -top-0.5 -right-0.5 w-4 h-4 bg-gray-900 text-white text-xs font-bold rounded-full flex items-center justify-center">
+                <span className="absolute -top-0.5 -right-0.5 w-4 h-4 bg-[#4410b9] text-white text-xs font-bold rounded-full flex items-center justify-center">
                   {totalItems}
                 </span>
               )}
@@ -121,7 +121,7 @@ export default function Header() {
           <div className="absolute left-0 top-0 bottom-0 w-72 bg-white flex flex-col shadow-xl">
             <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-gray-900 rounded-lg flex items-center justify-center">
+                <div className="w-8 h-8 bg-[#4410b9] rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-sm">L</span>
                 </div>
                 <p className="font-bold text-gray-900">Loperzaik</p>
@@ -154,7 +154,7 @@ export default function Header() {
           <Link href="/categoria/audio" className="flex flex-col items-center gap-0.5 px-3 py-1 text-gray-500 hover:text-gray-900 text-xs"><FiGrid size={20}/>Categorías</Link>
           <Link href="/carrito" className="flex flex-col items-center gap-0.5 px-3 py-1 text-gray-500 hover:text-gray-900 text-xs relative">
             <FiShoppingCart size={20}/>
-            {totalItems > 0 && <span className="absolute top-0 right-2 w-4 h-4 bg-gray-900 text-white text-xs font-bold rounded-full flex items-center justify-center">{totalItems}</span>}
+            {totalItems > 0 && <span className="absolute top-0 right-2 w-4 h-4 bg-[#4410b9] text-white text-xs font-bold rounded-full flex items-center justify-center">{totalItems}</span>}
             Carrito
           </Link>
           <Link href="/blog" className="flex flex-col items-center gap-0.5 px-3 py-1 text-gray-500 hover:text-gray-900 text-xs"><FiBookOpen size={20}/>Blog</Link>
